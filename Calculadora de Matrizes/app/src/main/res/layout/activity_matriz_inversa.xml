@@ -36,7 +36,7 @@
             android:layout_marginTop="24dp"
             android:background="@drawable/edt_layout"
             android:ems="10"
-            android:inputType="number"
+            android:inputType="number|textPersonName|numberDecimal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:gravity="center"/>
