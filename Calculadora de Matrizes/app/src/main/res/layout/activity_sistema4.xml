@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sistema4Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewS4"
+            android:layout_width="40dp"
+            android:layout_height="250dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bracket2" />
+
+        <EditText
+            android:id="@+id/edtS4w1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="w"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintStart_toEndOf="@+id/imageViewS4"
+            app:layout_constraintTop_toTopOf="@+id/imageViewS4" />
+
+        <EditText
+            android:id="@+id/edtS4x1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="x"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4w1"
+            app:layout_constraintStart_toEndOf="@+id/edtS4w1"
+            app:layout_constraintTop_toTopOf="@+id/edtS4w1" />
+
+        <EditText
+            android:id="@+id/edtS4y1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="y"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4x1"
+            app:layout_constraintStart_toEndOf="@+id/edtS4x1"
+            app:layout_constraintTop_toTopOf="@+id/edtS4x1" />
+
+        <EditText
+            android:id="@+id/edtS4z1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="z"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4y1"
+            app:layout_constraintStart_toEndOf="@+id/edtS4y1"
+            app:layout_constraintTop_toTopOf="@+id/edtS4y1" />
+
+        <EditText
+            android:id="@+id/edtS4inde"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2S4"
+            app:layout_constraintStart_toEndOf="@+id/imageView2S4"
+            app:layout_constraintTop_toTopOf="@+id/imageView2S4" />
+
+        <EditText
+            android:id="@+id/edtS4w2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="w"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintStart_toEndOf="@+id/imageViewS4"
+            app:layout_constraintTop_toBottomOf="@+id/edtS4w1" />
+
+        <EditText
+            android:id="@+id/edtS4x2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="x"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4w2"
+            app:layout_constraintStart_toEndOf="@+id/edtS4w2"
+            app:layout_constraintTop_toTopOf="@+id/edtS4w2" />
+
+        <EditText
+            android:id="@+id/edtS4y2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="y"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4x2"
+            app:layout_constraintStart_toEndOf="@+id/edtS4x2"
+            app:layout_constraintTop_toTopOf="@+id/edtS4x2" />
+
+        <EditText
+            android:id="@+id/edtS4z2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="z"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4y2"
+            app:layout_constraintStart_toEndOf="@+id/edtS4y2"
+            app:layout_constraintTop_toTopOf="@+id/edtS4y2" />
+
+        <EditText
+            android:id="@+id/edtS4inde2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3S4"
+            app:layout_constraintStart_toEndOf="@+id/imageView3S4"
+            app:layout_constraintTop_toTopOf="@+id/imageView3S4" />
+
+        <EditText
+            android:id="@+id/edtS4w3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="w"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintStart_toEndOf="@+id/imageViewS4"
+            app:layout_constraintTop_toBottomOf="@+id/edtS4w2" />
+
+        <EditText
+            android:id="@+id/edtS4x3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="x"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4w3"
+            app:layout_constraintStart_toEndOf="@+id/edtS4w3"
+            app:layout_constraintTop_toTopOf="@+id/edtS4w3" />
+
+        <EditText
+            android:id="@+id/edtS4y3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="y"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4x3"
+            app:layout_constraintStart_toEndOf="@+id/edtS4x3"
+            app:layout_constraintTop_toTopOf="@+id/edtS4x3" />
+
+        <EditText
+            android:id="@+id/edtS4z3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="z"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4y3"
+            app:layout_constraintStart_toEndOf="@+id/edtS4y3"
+            app:layout_constraintTop_toTopOf="@+id/edtS4y3" />
+
+        <EditText
+            android:id="@+id/edtS4Inde3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView5S4"
+            app:layout_constraintStart_toEndOf="@+id/imageView5S4"
+            app:layout_constraintTop_toTopOf="@+id/imageView5S4" />
+
+        <EditText
+            android:id="@+id/edtS4w4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="w"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewS4"
+            app:layout_constraintStart_toEndOf="@+id/imageViewS4"
+            app:layout_constraintTop_toBottomOf="@+id/edtS4w3" />
+
+        <EditText
+            android:id="@+id/edtS4x4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="x"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4w4"
+            app:layout_constraintStart_toEndOf="@+id/edtS4w4"
+            app:layout_constraintTop_toTopOf="@+id/edtS4w4" />
+
+        <EditText
+            android:id="@+id/edtS4y4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="y"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4x4"
+            app:layout_constraintStart_toEndOf="@+id/edtS4x4"
+            app:layout_constraintTop_toTopOf="@+id/edtS4x4" />
+
+        <EditText
+            android:id="@+id/edtS4z4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="z"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4y4"
+            app:layout_constraintStart_toEndOf="@+id/edtS4y4"
+            app:layout_constraintTop_toTopOf="@+id/edtS4y4" />
+
+        <ImageView
+            android:id="@+id/imageView2S4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4z1"
+            app:layout_constraintStart_toEndOf="@+id/edtS4z1"
+            app:layout_constraintTop_toTopOf="@+id/edtS4z1"
+            app:srcCompat="@drawable/equal" />
+
+        <ImageView
+            android:id="@+id/imageView5S4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4z3"
+            app:layout_constraintStart_toEndOf="@+id/edtS4z3"
+            app:layout_constraintTop_toTopOf="@+id/edtS4z3"
+            app:srcCompat="@drawable/equal" />
+
+        <ImageView
+            android:id="@+id/imageView3S4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4z2"
+            app:layout_constraintStart_toEndOf="@+id/edtS4z2"
+            app:layout_constraintTop_toTopOf="@+id/edtS4z2"
+            app:srcCompat="@drawable/equal" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS4z4"
+            app:layout_constraintStart_toEndOf="@+id/edtS4z4"
+            app:layout_constraintTop_toTopOf="@+id/edtS4z4"
+            app:srcCompat="@drawable/equal" />
+
+        <EditText
+            android:id="@+id/edtS4inde4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/buttonCalcS4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/buttons_layout"
+        android:text="@string/calcular"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/tvResulS4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLimpaSis4" />
+
+    <Button
+        android:id="@+id/buttonLimpaSis4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttons_layout"
+        android:text="@string/limp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCalcS4"
+        app:layout_constraintStart_toStartOf="@+id/buttonCalcS4"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCalcS4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

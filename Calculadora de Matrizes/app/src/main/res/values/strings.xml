@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculadora De Matrizes</string>
+    <string name="calcular">Calcular</string>
+    <string name="limp">Limpar</string>
+</resources>

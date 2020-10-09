@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sistema3Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edtS3x1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="x"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintStart_toEndOf="@+id/imageViewS3"
+            app:layout_constraintTop_toTopOf="@+id/imageViewS3" />
+
+        <EditText
+            android:id="@+id/edtS3y1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="y"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS3x1"
+            app:layout_constraintStart_toEndOf="@+id/edtS3x1"
+            app:layout_constraintTop_toTopOf="@+id/edtS3x1" />
+
+        <EditText
+            android:id="@+id/edtS3z1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="z"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS3y1"
+            app:layout_constraintStart_toEndOf="@+id/edtS3y1"
+            app:layout_constraintTop_toTopOf="@+id/edtS3y1" />
+
+        <EditText
+            android:id="@+id/edtS3inde"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2S3"
+            app:layout_constraintStart_toEndOf="@+id/imageView2S3"
+            app:layout_constraintTop_toTopOf="@+id/imageView2S3" />
+
+        <EditText
+            android:id="@+id/edtS3x2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="x"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintStart_toEndOf="@+id/imageViewS3"
+            app:layout_constraintTop_toBottomOf="@+id/edtS3x1" />
+
+        <EditText
+            android:id="@+id/edtS3y2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="y"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS3x2"
+            app:layout_constraintStart_toEndOf="@+id/edtS3x2"
+            app:layout_constraintTop_toTopOf="@+id/edtS3x2" />
+
+        <EditText
+            android:id="@+id/edtS3z2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="z"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS3y2"
+            app:layout_constraintStart_toEndOf="@+id/edtS3y2"
+            app:layout_constraintTop_toTopOf="@+id/edtS3y2" />
+
+        <EditText
+            android:id="@+id/edtS3inde2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3S3"
+            app:layout_constraintStart_toEndOf="@+id/imageView3S3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3S3" />
+
+        <EditText
+            android:id="@+id/edtS3x3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="x"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintStart_toEndOf="@+id/imageViewS3"
+            app:layout_constraintTop_toBottomOf="@+id/edtS3x2" />
+
+        <EditText
+            android:id="@+id/edtS3y3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="y"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS3x3"
+            app:layout_constraintStart_toEndOf="@+id/edtS3x3"
+            app:layout_constraintTop_toTopOf="@+id/edtS3x3" />
+
+        <EditText
+            android:id="@+id/edtS3z3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="z"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS3y3"
+            app:layout_constraintStart_toEndOf="@+id/edtS3y3"
+            app:layout_constraintTop_toTopOf="@+id/edtS3y3" />
+
+        <EditText
+            android:id="@+id/edtS3Inde3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edt_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number|textPersonName|numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+        <ImageView
+            android:id="@+id/imageView2S3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS3z1"
+            app:layout_constraintStart_toEndOf="@+id/edtS3z1"
+            app:layout_constraintTop_toTopOf="@+id/edtS3z1"
+            app:srcCompat="@drawable/equal" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS3z3"
+            app:layout_constraintStart_toEndOf="@+id/edtS3z3"
+            app:layout_constraintTop_toTopOf="@+id/edtS3z3"
+            app:srcCompat="@drawable/equal" />
+
+        <ImageView
+            android:id="@+id/imageViewS3"
+            android:layout_width="60dp"
+            android:layout_height="180dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bracket2" />
+
+        <ImageView
+            android:id="@+id/imageView3S3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/edtS3z2"
+            app:layout_constraintStart_toEndOf="@+id/edtS3z2"
+            app:layout_constraintTop_toTopOf="@+id/edtS3z2"
+            app:srcCompat="@drawable/equal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/buttonCalcS3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/buttons_layout"
+        android:text="@string/calcular"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/tvResulS3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLimpaSis3" />
+
+    <Button
+        android:id="@+id/buttonLimpaSis3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttons_layout"
+        android:text="@string/limp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCalcS3"
+        app:layout_constraintStart_toStartOf="@+id/buttonCalcS3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCalcS3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
